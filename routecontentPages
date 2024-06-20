@@ -1,0 +1,7 @@
+import '../index.css'
+
+const Culture = () => {
+  return <div className='page-content'>Welcome to Culture Page</div>;
+};
+
+export default Culture;
