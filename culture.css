@@ -1,0 +1,41 @@
+.culture_img {
+    background-image: url('../../Assets/culture1.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+  }
+  
+  .culture_content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 80%; 
+  }
+  
+  .culture_content_circle {
+    background-color: #df7777;
+    color: #fff;
+    border-radius: 50%;
+    width: 50vw; 
+    height: 50vw; 
+    max-width: 500px; 
+    max-height: 500px; 
+    font-size: 2rem;
+    padding: 5rem;
+    position: relative;
+  }
+  
+  .culture_content_square {
+    background-color: #995353;
+    color: #fff;
+    width: 50%; 
+    max-width: 400px; 
+    font-size: 2rem;
+    padding: 2rem; 
+    position: absolute; 
+    left:-11rem;
+  }
+  
